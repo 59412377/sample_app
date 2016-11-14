@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+ source 'https://gems.ruby-china.org'
 
 ruby '2.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -6,6 +7,8 @@ ruby '2.2.1'
 gem 'rails', '4.0.13'
 
 gem 'bootstrap-sass','2.3.2.0'
+
+gem 'bcrypt-ruby'
 
 # Use sqlite3 as the database for Active Record
 group :development , :test do
